@@ -1,4 +1,4 @@
-# Getting the bootstrapped.
+# Getting the project bootstrapped.
 
 Before the list of commands to get the app up and running enumerated, I would like to give 
 a brief description of about the technical test task. although the project was structured 
