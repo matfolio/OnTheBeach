@@ -1,0 +1,145 @@
+.card {
+	position:relative;
+    border-radius:5px 5px 0px 0px;
+    margin-top:150px;
+    transition: 0.3s;
+    width: 500px;
+    box-shadow: 0 0.4em 0.5em 0;
+    height:350px;
+    left:50%;
+    right:-50px;
+    transform: translate(-50%,-30%);
+}
+
+.card:hover {
+    box-shadow: 0 0.5em 0.7em 0;
+}
+
+img {
+	position: absolute;
+	left:0;
+	top:100px;
+    width:500px;
+    height:200px;
+}
+
+.container {
+    padding: 2px 16px;
+    position:absolute;
+    height:50px;
+    top:300px;
+    background:#eee;
+    width:500px;
+}
+
+.label {
+	position:absolute;
+	left:0px;
+	top:0px;
+	height:100px;
+	width:500px;
+	font-size:20px;
+	background:#bbcbdb;
+}
+
+.hotel_title {
+	position: absolute;
+	color:#1ba1d1;
+	padding-top: 20px;
+	padding-left:10px;
+	word-break: break-all;
+	width:350px;
+	height:100px;
+	font-size:.8em;
+	top:0px;
+	text-align:left;
+	left:0px;
+
+
+}
+
+
+.more_info {
+	position: absolute;
+	left:0px;
+	top:0px;
+	-moz-overflow-wrap:break-word;
+	-webkit-overflow-wrap:break-word;
+	overflow-wrap:break-word;
+	padding:5px;
+	width:500px;
+	height:50px;
+	color:#fff;
+	background:#1ba1d1;
+
+}
+
+.price {
+	position:absolute;
+	-moz-overflow-wrap:break-word;
+	-webkit-overflow-wrap:break-word;
+	overflow-wrap:break-word;
+	line-height:1em;
+	right:0px;
+	top:0px;
+	height:100px;
+	text-align:center;
+	width:150px;
+    padding:20px 5px;
+    border-left:2px solid #0ff;
+    border-radius:0px 5px 0px 0px;
+    color:#126d8d;
+    background: #ffff9f;
+}
+.button {
+    background:#bbcbdb;
+    border: none;
+    color:#1ba1d1;
+    width:150px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 5px;
+    cursor: pointer;
+}
+.button:active, .button:hover{
+	background:#1ba1d1;
+	color:white;;
+}
+
+.checked {
+    color: orange;
+} 
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+  margin-right:5px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.description {
+	position: absolute;
+	display:none;
+	left:0px;
+	top:350px;
+	-moz-overflow-wrap:break-word;
+	-webkit-overflow-wrap:break-word;
+	overflow-wrap:break-word;
+	padding:5px;
+	width:500px;
+	height:120px;
+	color:#fff;
+	background:#bbcbdb;
+	bottom:200px;
+
+}
+
